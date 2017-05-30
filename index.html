@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SmartED pAGE</title>
+		<link rel="icon" type="image/png" href="img/Smart.jpg"/>
+		<link rel="stylesheet" type="text/css" href="CSS/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" href="CSS/pe-icon-7-stroke/css/helper.css">
+		<link rel="stylesheet" type="text/css" href="CSS/my-icons-collection/font/flaticon.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="CSS/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="vendor/animate.css">
+		<link rel="stylesheet" type="text/css" href="vendor/angular-material.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+
+	</head>
+	<body ng-app="smarted">
+		<div class="logo-container animated zoomIn">
+			<a href="index.html">
+			<div class="thumbnail" style="background: transparent; border: none; height: auto; padding:0px; margin: 0px;"><img src="img/logo2.png"></div></a>
+		</div>
+		<!--sidebar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" ng-controller="siteController">
+            <ul class="nav sidebar-nav animated slideInUp">
+                <li class="sidebar-brand">
+                	<a animated-modal href="#home" options="options" before-open="beforeOpen()" after-close="afterClose()"><i class="flaticon-command"></i><b class="texts">About</b></a>
+                </li>
+                <li>
+                    <a animated-modal href="#about" options="options" before-open="beforeOpen()" after-close="afterClose()"><i class="flaticon-open-book"></i><b class="texts">What We Do</b></a>
+                </li>
+                <li>
+                	<a animated-modal href="#learn" options="options" before-open="beforeOpen()" after-close="afterClose()"><i class="flaticon-cogwheel"></i><b class="texts">Get Involved</b></a>
+                </li>
+                 <li>
+                    <a animated-modal href="#contact" options="options" before-open="beforeOpen()" after-close="afterClose()"><i class="flaticon-alarm"></i><b class="texts">Contact Us</b></a>
+                </li>
+                 <li>
+                    <a href="https://www.facebook.com/smarted.me" target="_blank"><i class="flaticon-interface"></i><b class="texts">Facebook</b></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/smartedhq" target="_blank"><i class="flaticon-twitter-logo-outline"></i><b class="texts">Twitter</b></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+		<!--sidebar ends here -->
+		<div id="carousel-id" class="carousel slide animated fadeIn" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item">
+					<!--<div class="thumbnail"><img data-src="" alt="First slide" src="img/Smart.jpg"></div>-->
+					<div class="fill" style="background-image:url('img/brand.jpg');">
+				        <div class="container">
+				          
+				        </div>
+				    </div>
+				</div>
+				<div class="item">
+					<!--<div class="thumbnail"><img data-src="" alt="First slide" src="img/Smart.jpg"></div>-->
+					<div class="fill" style="background-image:url('img/br.jpg');">
+				        <div class="container">
+				          
+				        </div>
+				    </div>
+				</div>
+				<div class="item active">
+					<!--<div class="thumbnail"><img data-src="" alt="First slide" src="img/Smart.jpg"></div>-->
+					<div class="fill" style="background-image:url('img/Smart.jpg');">
+				        <div class="container">
+				          
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!--MODAL SECTION -->
+		<div id="home">
+			<div class="closed close-home"> 
+				<i class="pe-7s-close-circle pe-4x animated" rotate></i>
+			</div>            
+			<div class="modal-content">
+				<!--modal content goes here-->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- this is where all my contents go -->
+						<div class="contain">
+							<h2>About SmartED</h2>
+							<div class="row">
+								<div class="col-md-4">
+									<iframe src="https://player.vimeo.com/video/163882821" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								</div>
+								<div class="col-md-8">
+									<p>SmartED is a digital school that provides learning in a classroom experience via Tablet for Primary and Secondary School students in Nigeria and West Africa following standard West African Schools Curriculum. <br><br>SmartED does live recording of teaching done in a teaching studio and are packaged into Years like (Year 1, Year2 etc) for ease of distribution.
+									</p>
+									<h3>Our Objective</h3>
+									<p>To provide quality education to the millions of children unreached with education in Africa especially those displaced by crises and natural disaster<br><br>
+									To provide quality education to those who find learning too expensive.<br><br>
+									To create an alternative learning platform for those in schools who may not have quality teachers and will like to be self-taught and for home study.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="about">
+			<div class="closed close-about"> 
+				<i class="pe-7s-close-circle pe-4x animated" rotate></i>
+			</div>            
+			<div class="modal-content">
+				<!--modal content goes here-->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- this is where all my contents go -->
+						<div class="contain">
+							<h2>What We Do</h2>
+							<div class="row">
+								<div class="col-md-4">
+									<iframe src="https://player.vimeo.com/video/163883503" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+								</div>
+								<div class="col-md-8">
+									<p>SmartED is a learning focused platform delivered offline on tablets for primary and secondary school kids. Our contents are well illustrated and designed following the Harvard Graduate School Of Education universal design model. <br><br>
+									SmartED takes quality teaching of experienced teachers illustrates, animates and turn it into interactive learning experience for each and every students that will use our tablets and APPs.<br><br> 
+									SmartED video lessons are well paced following the 3-term/year-school system in preparation of the lessons, which is in-line with the local syllabuses making it easy for students already in school to use it as a continuous learning tool after school.<br><br>
+									There is presently no any digital school in Nigeria, which makes us the first and the leader in this space. Making our potential market size over 40Million people.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="learn">
+			<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+			<div class="closed close-learn"> 
+				<i class="pe-7s-close-circle pe-4x animated" rotate></i>
+			</div>            
+			<div class="modal-content" ng-controller="siteController">
+				<!--modal content goes here-->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- this is where all my contents go -->
+						<div class="contain">
+							<h2>LET’S STAY IN TOUCH!</h2>
+							<p>If there's something on this list that sounds like you, please check any and all that apply. If you'd like to participate in some other way, let us know in the comment box below.</p>
+							<md-content layout-padding>
+							    <form name="userForm">
+							      <div layout-gt-sm="row">
+							        <md-input-container class="md-block" flex-gt-sm>
+							          <label>First Name</label>
+							          <input md-maxlength="30" required name="name" ng-model="user.firstName"/>
+							          <div class="hint" ng-if="showHints">Tell us your first name!</div>
+							          <div ng-messages="userForm.name.$error" ng-if="!showHints">
+							            <div ng-message="required">Name is required.</div>
+							            <div ng-message="md-maxlength">The name has to be less than 30 characters long.</div>
+							          </div>
+							        </md-input-container>
+							        <div flex="5" hide-xs hide-sm>
+							          <!-- Spacer //-->
+							        </div>
+							        <md-input-container class="md-block" flex-gt-sm>
+							          <label>Last Name</label>
+							          <input md-maxlength="30" required name="name" ng-model="user.lastName" />
+							          <div class="hint" ng-if="showHints">Tell us your last name!</div>
+							          <div ng-messages="userForm.name.$error" ng-if="!showHints">
+							            <div ng-message="required">Name is required.</div>
+							            <div ng-message="md-maxlength">The name has to be less than 30 characters long.</div>
+							          </div>
+							        </md-input-container>
+							      </div>
+							      <div layout-gt-sm="row">
+							        <md-input-container class="md-block" flex-gt-sm>
+							          <label>Email</label>
+							          <input name="email" ng-model="user.email"
+							                 required minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/" />
+							          <div class="hint" ng-show="showHints">How can we reach you?</div>
+							          <div ng-messages="userForm.email.$error" ng-hide="showHints">
+							            <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+							              Your email must be between 10 and 100 characters long and look like an e-mail address.
+							            </div>
+							          </div>
+							        </md-input-container>
+							        <div flex="5" hide-xs hide-sm>
+							          <!-- Spacer //-->
+							        </div>
+							        <md-input-container class="md-block" flex-gt-sm>
+							          <label>Phone Number</label>
+							          <input name="phone" ng-model="user.phone" />
+							          <div class="hint" ng-show="showHints">Mind if we call you?</div>
+							          <div ng-messages="userForm.phone.$error" ng-hide="showHints">
+							            <div ng-message="pattern">(###) ###-#### - Please enter a valid phone number.</div>
+							          </div>
+							        </md-input-container>
+							      </div>
+							      <div layout="column" layout-wrap layout-gt-sm="row" >
+							       		<md-checkbox ng-model="user.update" aria-label="Checkbox 1" flex="50">
+								            Send me email updates
+								        </md-checkbox>
+							      </div>
+							      <div layout="column" layout-wrap layout-gt-sm="row" id="checkboxes">
+							       		<h4 flex="100">Will you help?</h4>
+							       		<md-checkbox aria-label="Checkbox" flex="100" ng-model="user.developmentPartner">
+								            I’d like to be a deployment partner 
+								        </md-checkbox>
+								        <md-checkbox aria-label="Checkbox" flex="100" ng-model="user.developContent">
+								             I’d like to develop content
+								        </md-checkbox>
+								        <md-checkbox  aria-label="Checkbox" flex="100" ng-model="user.shareContent">
+								            I have content and want to share
+								        </md-checkbox>
+								        <md-checkbox  aria-label="Checkbox" flex="100" ng-model = "user.fundraise">
+								            I’d like to help fundraise 
+								        </md-checkbox>
+								        <md-checkbox  aria-label="Checkbox" flex="100" ng-model = "user.research">
+								            I'd like to apply to help with research  
+								        </md-checkbox>
+							      </div>
+							      <div layout="column" layout-wrap layout-gt-sm="row">
+								        <md-input-container class="md-block" flex-gt-sm>
+										  <label flex="100" style="line-height: 1.5;">Tell us more about yourself and why you want to get involved in the project:</label>
+										  <textarea ng-model="user.description"></textarea>
+									    </md-input-container>
+								   </div>
+								   <button class="md-button md-raised md-primary" type="submit">SUBMIT</button>
+							    </form>
+							</md-content>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contact">
+			<div class="closed close-contact"> 
+				<i class="pe-7s-close-circle pe-4x animated" rotate></i>
+			</div>            
+			<div class="modal-contact" ng-controller="siteController as vm">
+				<!--modal content goes here-->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- this is where all my contents go -->
+						<div class="contain">
+							<h2>Contact Us</h2>
+							<div class="row">
+								<div class="col-md-12">
+									<ng-map center="[6.504433, 3.377979]" on-center-changed="centerCustomMarker()" style="height: 400px;">
+										<marker position="[6.504433, 3.377979]" on-click="vm.showCustomMarker()"></marker>
+										<custom-marker id="foo" position="[6.504433, 3.377976]" on-click="vm.closeCustomMarker()">
+									        <div style="background: rgba(57, 190, 185, .8); padding: 12px; font-weight: bold;">
+												<p style="text-align: center; font-size: 15px; color: #222;">296 Herbert Macaulay Way, Sabo Yaba<br>+234 703 618 8527<br>info@smarted.com.ng
+												</p>
+											</div>
+								        </custom-marker>
+									</ng-map>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal section ends here -->
+
+	
+
+		
+	    
+		
+
+		<!-- jQuery -->
+		<script src="Script/jquery-2.1.4.min.js"></script>
+		<script src="Script/animatedModal.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="Script/bootstrap.min.js"></script>
+		<script src="https://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places"></script>
+		<!--Angular js takes control -->
+		<script src="vendor/angular.min.js"></script>
+		<script src="vendor/angular-ui-router.min.js"></script>
+		<script src="vendor/angular-animate.min.js"></script>
+		<script src="vendor/angular-aria.min.js"></script>
+		<script src="vendor/angular-messages.min.js"></script>
+		<script src="vendor/angular-material.min.js"></script>
+		<script src="vendor/angular-animated-modal.js"></script>
+		<script src="vendor/ng-map.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src= "js/controller.js"></script>
+		<script src="js/directives/smart.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,71 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/05/2016 20:02
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-add:before { content: "\f100"; }
+.flaticon-alarm:before { content: "\f101"; }
+.flaticon-books-stack-of-three:before { content: "\f102"; }
+.flaticon-cogwheel:before { content: "\f103"; }
+.flaticon-command:before { content: "\f104"; }
+.flaticon-facebook:before { content: "\f105"; }
+.flaticon-facebook-1:before { content: "\f106"; }
+.flaticon-google-plus-circular-button:before { content: "\f107"; }
+.flaticon-group:before { content: "\f108"; }
+.flaticon-group-1:before { content: "\f109"; }
+.flaticon-interface:before { content: "\f10a"; }
+.flaticon-open-book:before { content: "\f10b"; }
+.flaticon-settings:before { content: "\f10c"; }
+.flaticon-twitter:before { content: "\f10d"; }
+.flaticon-twitter-logo-outline:before { content: "\f10e"; }
+.flaticon-twitter-social-outlined-logo:before { content: "\f10f"; }
+    
+    $font-Flaticon-add: "\f100";
+    $font-Flaticon-alarm: "\f101";
+    $font-Flaticon-books-stack-of-three: "\f102";
+    $font-Flaticon-cogwheel: "\f103";
+    $font-Flaticon-command: "\f104";
+    $font-Flaticon-facebook: "\f105";
+    $font-Flaticon-facebook-1: "\f106";
+    $font-Flaticon-google-plus-circular-button: "\f107";
+    $font-Flaticon-group: "\f108";
+    $font-Flaticon-group-1: "\f109";
+    $font-Flaticon-interface: "\f10a";
+    $font-Flaticon-open-book: "\f10b";
+    $font-Flaticon-settings: "\f10c";
+    $font-Flaticon-twitter: "\f10d";
+    $font-Flaticon-twitter-logo-outline: "\f10e";
+    $font-Flaticon-twitter-social-outlined-logo: "\f10f";

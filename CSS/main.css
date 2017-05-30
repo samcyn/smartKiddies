@@ -1,0 +1,171 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	font-family: Segoe UI,"Helvetica Neue",Helvetica,Arial !important;
+}
+
+/*styling of the logo */
+.logo-container{
+	position: absolute; 
+	z-index: 1;
+	width: 200px; 
+	height: 40px;  
+	left: 50%; 
+	margin-left: -100px;
+	margin-top: 10px;
+}
+/*styling of the logo ends here*/
+
+/* styling the carousel so all the content fill the device */
+.carousel,.item,.active{height:100%; overflow: hidden;}
+.carousel-inner{height:100%;}
+.fill{
+
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size: cover; /*100% 100%;*/
+	background-repeat: no-repeat;
+}
+
+/*menus and sidebar styling */
+#sidebar-wrapper {
+    z-index: 1000;
+    left: 220px;
+    width: 200px;
+    height: 100%;
+    margin-left: -220px;
+    background: transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.nav.sidebar-nav{
+	margin-top: 50%;
+}
+
+.nav > li > a{
+	display: table-cell;
+	color: #fff;
+	background: rgba(0,0,0,.5);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.nav > li{
+	margin-bottom: 10px;
+}
+
+.nav > li > a > .texts{
+	color: #fff;
+	font-size: 18px;
+	display: none;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+	background: rgba(0,0,0,.5);
+	outline: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}  
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.nav > li > a:hover > .texts,
+.nav > li > a:focus > .texts
+{
+   display: block;  
+   -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s; 
+}
+
+.nav > li > a:hover > i,
+.nav > li > a:focus > i
+{
+	display: none;
+}
+
+.nav > li > a > i{
+	-webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s; 
+}
+
+/*modal styling */
+.closed{
+    position: relative;
+	width: 100%;
+	text-align: center;
+ }
+
+ .modal-content{
+ 	border-radius: initial;
+ 	border: none;
+ 	padding: 0px 10px 0px 10px;
+ 	background-color: transparent;
+ 	background: transparent;
+ 	-webkit-box-shadow: none;
+    box-shadow: none; 
+ }
+
+ .closed > i{
+ 	color: #fff;
+ 	cursor: pointer;
+ }
+
+ .contain{
+ 	background: #fff;
+ 	padding-top: 20px;
+ 	padding: 50px;
+ 	width: 90%;
+ 	margin: 0px auto 20px auto;
+   -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+	box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+ }
+
+ .contain > h2{
+ 	margin: 0px 0px 50px 0px; 
+ 	font-size: 24px; 
+ 	line-height: 1.2; 
+ 	text-transform: uppercase;
+ 	font-weight: 900;
+ }
+
+.contain p{
+	text-align: justify; 
+	font: 16px; 
+	color: #000;
+}
+ 
+#checkboxes{
+	margin-bottom: 10px; 
+	margin-top: 20px;
+}
+
+#checkboxes > h4{
+	margin-bottom: 20px; 
+	color: #353535;
+	 font-size: 18px; 
+	 font-weight: bold; 
+	 text-transform: uppercase;
+}
+
+md-input-container label{
+	font-size: 20px;
+}
+
+/*styling the videos */
+.player .title header h1 a{
+	color: #fff;
+}
